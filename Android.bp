@@ -25118,6 +25118,17 @@ android_app_import {
 }
 
 android_app_import {
+    name: "PowerOffAlarm",
+    owner: "nubia",
+    apk: "proprietary/system_ext/app/PowerOffAlarm/PowerOffAlarm.apk",
+    certificate: "platform",
+    dex_preopt: {
+        enabled: false,
+    },
+    system_ext_specific: true,
+}
+
+android_app_import {
     name: "QCC",
     owner: "nubia",
     apk: "proprietary/system_ext/app/QCC/QCC.apk",

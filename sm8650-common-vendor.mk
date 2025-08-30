@@ -1527,6 +1527,7 @@ PRODUCT_PACKAGES += \
     TimeService \
     uimgbaservice \
     ImsRcsService \
+    PowerOffAlarm \
     QCC \
     QesdkSysService \
     QtiTelephonyService \
