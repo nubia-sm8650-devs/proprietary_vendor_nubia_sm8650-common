@@ -58,7 +58,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/camera_family_resources/family_demo_slomo.mp4:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_family_resources/family_demo_slomo.mp4 \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/camera_family_resources/family_demo_vlog.mp4:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_family_resources/family_demo_vlog.mp4 \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/cameraaiconfig:$(TARGET_COPY_OUT_VENDOR)/etc/camera/cameraaiconfig \
-    vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/camxoverridesettings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camxoverridesettings.txt \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/constellation/And.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/constellation/And.png \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/constellation/Ant.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/constellation/Ant.png \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/constellation/Aps.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/constellation/Aps.png \
@@ -246,7 +245,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/icon/water_mark_v1a_drawable_white.argb:$(TARGET_COPY_OUT_VENDOR)/etc/camera/icon/water_mark_v1a_drawable_white.argb \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/icon/water_mark_v1a_drawable_white_eng.argb:$(TARGET_COPY_OUT_VENDOR)/etc/camera/icon/water_mark_v1a_drawable_white_eng.argb \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/icon/yizhou_fs.c:$(TARGET_COPY_OUT_VENDOR)/etc/camera/icon/yizhou_fs.c \
-    vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/mfnr_network_denoise_config_underdisplay.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mfnr_network_denoise_config_underdisplay.xml \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/remosaic_cali_ov16a1q.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/remosaic_cali_ov16a1q.bin \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/remosaic_cali_s5kjn1sq03.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/remosaic_cali_s5kjn1sq03.bin \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/sat_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sat_config.xml \
