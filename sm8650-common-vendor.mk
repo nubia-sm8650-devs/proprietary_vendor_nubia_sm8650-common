@@ -171,10 +171,8 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/icon/colorfilter_av800.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/icon/colorfilter_av800.png \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/icon/colorfilter_bleach.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/icon/colorfilter_bleach.png \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/icon/colorfilter_blue_crush.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/icon/colorfilter_blue_crush.png \
-    vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/icon/colorfilter_building.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/icon/colorfilter_building.png \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/icon/colorfilter_bw_contrast.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/icon/colorfilter_bw_contrast.png \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/icon/colorfilter_candy.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/icon/colorfilter_candy.png \
-    vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/icon/colorfilter_cloud.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/icon/colorfilter_cloud.png \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/icon/colorfilter_color_master.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/icon/colorfilter_color_master.png \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/icon/colorfilter_comic_cloud.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/icon/colorfilter_comic_cloud.png \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/icon/colorfilter_dt2.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/icon/colorfilter_dt2.png \
@@ -187,7 +185,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/icon/colorfilter_fj2.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/icon/colorfilter_fj2.png \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/icon/colorfilter_fj4.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/icon/colorfilter_fj4.png \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/icon/colorfilter_fj8.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/icon/colorfilter_fj8.png \
-    vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/icon/colorfilter_food.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/icon/colorfilter_food.png \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/icon/colorfilter_heijin.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/icon/colorfilter_heijin.png \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/icon/colorfilter_inspiration.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/icon/colorfilter_inspiration.png \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/icon/colorfilter_instant.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/icon/colorfilter_instant.png \
@@ -200,7 +197,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/icon/colorfilter_mono2.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/icon/colorfilter_mono2.png \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/icon/colorfilter_mono3.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/icon/colorfilter_mono3.png \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/icon/colorfilter_mono4.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/icon/colorfilter_mono4.png \
-    vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/icon/colorfilter_mountain.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/icon/colorfilter_mountain.png \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/icon/colorfilter_newyear.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/icon/colorfilter_newyear.png \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/icon/colorfilter_passion.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/icon/colorfilter_passion.png \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/icon/colorfilter_pt160.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/icon/colorfilter_pt160.png \
@@ -208,11 +204,9 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/icon/colorfilter_qingxin.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/icon/colorfilter_qingxin.png \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/icon/colorfilter_renwen.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/icon/colorfilter_renwen.png \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/icon/colorfilter_retro.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/icon/colorfilter_retro.png \
-    vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/icon/colorfilter_sun.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/icon/colorfilter_sun.png \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/icon/colorfilter_vintage.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/icon/colorfilter_vintage.png \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/icon/colorfilter_washout.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/icon/colorfilter_washout.png \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/icon/colorfilter_washout_color.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/icon/colorfilter_washout_color.png \
-    vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/icon/colorfilter_water.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/icon/colorfilter_water.png \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/icon/colorfilter_x_process.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/icon/colorfilter_x_process.png \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/icon/fish_eye_fs2.c:$(TARGET_COPY_OUT_VENDOR)/etc/camera/icon/fish_eye_fs2.c \
     vendor/nubia/sm8650-common/proprietary/vendor/etc/camera/icon/frag_shader_negative_film.c:$(TARGET_COPY_OUT_VENDOR)/etc/camera/icon/frag_shader_negative_film.c \
@@ -801,7 +795,6 @@ PRODUCT_PACKAGES += \
     libQnnSaver \
     libQnnSystem \
     libQtiRilLoadable \
-    libVNSDenoise \
     libVoiceSdk \
     libWlanServiceJni \
     libadaptive_shutter \

@@ -55,9 +55,7 @@ case "$target" in
     "pineapple")
         setprop vendor.mm.target.enable.qcom_parser 524288
         setprop vendor.media.target_variant "_pineapple"
-        if [ $build_codename -le "14" ]; then
-             setprop vendor.netflix.bsp_rev "Q8650-37577-1"
-        fi
+        setprop vendor.netflix.bsp_rev "Q8650-37577-1"
         ;;
     "taro")
         setprop vendor.mm.target.enable.qcom_parser 1040479
