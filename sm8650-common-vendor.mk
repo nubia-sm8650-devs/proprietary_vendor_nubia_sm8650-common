@@ -1102,7 +1102,7 @@ PRODUCT_PACKAGES += \
     libsysmon_cdsp_skel \
     libsystem_health_mon \
     libtaautoload \
-    libtensorflowlite_c \
+    libtensorflowlite_c_vendor \
     libtensorflowlite_gpu_jni \
     libtensorflowlite_jni_vendor \
     libtestutils \
