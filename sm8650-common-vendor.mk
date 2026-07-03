@@ -1124,7 +1124,6 @@ PRODUCT_PACKAGES += \
     libvendorutils \
     libvideotxr \
     libvmfilexfer \
-    libvmmem \
     libvppclient \
     libvppcommon \
     libvpphcp \
