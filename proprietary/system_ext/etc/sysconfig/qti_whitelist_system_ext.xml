@@ -37,4 +37,6 @@
     <allow-in-power-save package="com.qualcomm.location" />
     <hidden-api-whitelisted-app package="com.qualcomm.location" />
     <hidden-api-whitelisted-app package="com.skyhook.blp" />
+    <allow-in-power-save package="com.qualcomm.qti.workloadclassifier" />
+
 </config>

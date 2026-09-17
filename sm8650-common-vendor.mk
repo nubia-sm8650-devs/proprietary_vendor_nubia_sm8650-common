@@ -1429,6 +1429,7 @@ PRODUCT_PACKAGES += \
     libwfduibcsrc \
     libwfduibcsrcinterface \
     vendor.qti.ImsRtpService-V1-ndk \
+    vendor.qti.ImsRtpService-V2-ndk \
     vendor.qti.diaghal@1.0 \
     vendor.qti.hardware.dpmaidlservice-V1-ndk \
     vendor.qti.hardware.dpmservice@1.0 \
@@ -1458,7 +1459,6 @@ PRODUCT_PACKAGES += \
     ImsRcsService \
     PowerOffAlarm \
     QCC \
-    QesdkSysService \
     QtiTelephonyService \
     WfdService \
     dpmserviceapp \

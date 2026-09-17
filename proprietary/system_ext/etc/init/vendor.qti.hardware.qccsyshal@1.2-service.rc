@@ -4,29 +4,8 @@
 # Confidential and Proprietary - Qualcomm Technologies, Inc.
 #
 
-on init && property:ro.boot.product.vendor.sku=pineapple
-    enable qccsyshal@1.2-service
-
-on init && property:ro.boot.product.vendor.sku=kalama
-    enable qccsyshal@1.2-service
-
-on init && property:ro.boot.product.vendor.sku=taro
-    enable qccsyshal@1.2-service
-
-on init && property:ro.boot.product.vendor.sku=cliffs
-    enable qccsyshal@1.2-service
-
-on init && property:ro.boot.product.vendor.sku=crow
-    enable qccsyshal@1.2-service
-
-on init && property:ro.boot.product.vendor.sku=parrot
-    enable qccsyshal@1.2-service
-
-on init && property:ro.boot.product.vendor.sku=ravelin
-    enable qccsyshal@1.2-service
-
-on init && property:ro.boot.product.vendor.sku=yupik
-    enable qccsyshal@1.2-service
+on property:ro.boot.product.vendor.sku=sun
+    stop qccsyshal@1.2-service
 
 on post-fs-data
     mkdir /dev/socket/qcc_app 0770 system misc
@@ -65,7 +44,9 @@ on property:vendor.qti.qcc.oper.mode=6
     chmod 0660 /data/misc/qcc/conf/qcc.conf
 
 service qccsyshal@1.2-service /system/system_ext/bin/qccsyshal@1.2-service
-    disabled
     class hal
     user system
     group misc system
+
+on property:hwservicemanager.disabled=true
+    stop qccsyshal@1.2-service
