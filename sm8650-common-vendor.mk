@@ -742,6 +742,7 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio-impl-qti \
     android.hardware.bluetooth@1.0-impl-qti \
     android.hardware.bluetooth@1.1-impl-qti \
+    audio.bluetooth_qti.default \
     com.dsi.ant@1.0-impl \
     libqtigatekeeper \
     vendor.qti.hardware.alarm-impl \
